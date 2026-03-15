@@ -1,0 +1,38 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio / Rider / JetBrains files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Rider / VS Code local settings
+*.sln.iml
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+packages/
+# If using PackageReference, you can skip this
+# *.snupkg
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+
+# Publish output
+publish/
+
+# Local files
+*.asc
